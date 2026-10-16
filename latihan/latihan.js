@@ -1,5 +1,6 @@
 // ambil semua elemen vidio
-const vidio = Array.from(document.querySelectorAll('[data-duration'));
+// ubah data-duration dari nodelist   menjadi array dengan array.from
+const vidio = Array.from(document.querySelectorAll('[data-duration]'));
 
 
 // pilih hanya yang javascipt lanjutan
